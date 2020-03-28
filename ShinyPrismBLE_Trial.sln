@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShinyPrismBLE_Trial.Android", "ShinyPrismBLE_Trial\ShinyPrismBLE_Trial.Android\ShinyPrismBLE_Trial.Android.csproj", "{3F58C416-EB5F-4515-BF5A-7D638538EBDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShinyPrismBLE_Trial", "ShinyPrismBLE_Trial\ShinyPrismBLE_Trial\ShinyPrismBLE_Trial.csproj", "{6B378298-8DC3-40E4-8C46-3B9EF3E42FE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F58C416-EB5F-4515-BF5A-7D638538EBDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F58C416-EB5F-4515-BF5A-7D638538EBDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F58C416-EB5F-4515-BF5A-7D638538EBDF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3F58C416-EB5F-4515-BF5A-7D638538EBDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F58C416-EB5F-4515-BF5A-7D638538EBDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F58C416-EB5F-4515-BF5A-7D638538EBDF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6B378298-8DC3-40E4-8C46-3B9EF3E42FE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B378298-8DC3-40E4-8C46-3B9EF3E42FE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B378298-8DC3-40E4-8C46-3B9EF3E42FE1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6B378298-8DC3-40E4-8C46-3B9EF3E42FE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B378298-8DC3-40E4-8C46-3B9EF3E42FE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B378298-8DC3-40E4-8C46-3B9EF3E42FE1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C659DC78-BF2B-4DAB-9502-B8037B04AB18}
+	EndGlobalSection
+EndGlobal
