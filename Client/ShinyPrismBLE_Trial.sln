@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29920.165
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShinyPrismBLE_Trial.Android", "ShinyPrismBLE_Trial\ShinyPrismBLE_Trial.Android\ShinyPrismBLE_Trial.Android.csproj", "{3F58C416-EB5F-4515-BF5A-7D638538EBDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShinyPrismBLE_Trial", "ShinyPrismBLE_Trial\ShinyPrismBLE_Trial\ShinyPrismBLE_Trial.csproj", "{6B378298-8DC3-40E4-8C46-3B9EF3E42FE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShinyPrismBLE_Trial", "ShinyPrismBLE_Trial\ShinyPrismBLE_Trial\ShinyPrismBLE_Trial.csproj", "{6B378298-8DC3-40E4-8C46-3B9EF3E42FE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
