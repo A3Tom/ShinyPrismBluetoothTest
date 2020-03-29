@@ -2,21 +2,34 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              mc:Ignorable="d"
              x:Class="ShinyPrismBLE_Trial.Views.MainPage">
     <ContentPage.Content>
-        <StackLayout Margin="20,0,0,0">
+        <StackLayout Margin="0,0,0,0">
             <Label FontSize="Large" HorizontalOptions="Center" Text="Tam's mad pishy app" Margin="20" />
             <Frame>
                 <StackLayout>
-                    <Entry x:Name="txtMessage" Placeholder="Message Text" HorizontalOptions="Fill" />
-                    <Button x:Name="btnSend" Text="Send" TextColor="White"  BackgroundColor="Gray" HorizontalOptions="Fill"/>
+                    <Button x:Name="btnSend" Text="Scan, fandan" TextColor="White"  BackgroundColor="Gray" HorizontalOptions="Fill"/>
+
+                    <ListView x:Name="lvDeviceView"  ItemsSource="{Binding uniquePeripherals}" HasUnevenRows="True" HorizontalOptions="Fill" VerticalOptions="Fill" >
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell x:Name="viewcell">
+                                    <StackLayout>
+                                        <Label x:Name="ListCell" Text="{Binding HingName}"/>
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                    
+                    <Label x:Name="lblOutput"/>
+                    <Button x:Name="btnConnect" Text="Connect" TextColor="White" BackgroundColor="Gray" HorizontalOptions="Fill"/>
                 </StackLayout>
             </Frame>
-            
-            <Switch x:Name="swToggle" IsToggled="false" />
-            <Label x:Name="lblOutput" FontSize="Medium" HorizontalOptions="Center" Margin="20" />
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
