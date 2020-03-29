@@ -10,10 +10,13 @@
             <Label FontSize="Large" HorizontalOptions="Center" Text="Tam's mad pishy app" Margin="20" />
             <Frame>
                 <StackLayout>
-                    <Entry Placeholder="Message Text" HorizontalOptions="Fill" />
-                    <Button Text="Send" TextColor="White"  BackgroundColor="Gray" HorizontalOptions="Fill" />
+                    <Entry x:Name="txtMessage" Placeholder="Message Text" HorizontalOptions="Fill" />
+                    <Button x:Name="btnSend" Text="Send" TextColor="White"  BackgroundColor="Gray" HorizontalOptions="Fill"/>
                 </StackLayout>
             </Frame>
+            
+            <Switch x:Name="swToggle" IsToggled="false" />
+            <Label x:Name="lblOutput" FontSize="Medium" HorizontalOptions="Center" Margin="20" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

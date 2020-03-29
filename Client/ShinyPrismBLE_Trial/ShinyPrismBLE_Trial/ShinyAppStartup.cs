@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Prism.DryIoc;
+using Shiny;
 using Shiny.Prism;
 
 namespace ShinyPrismBLE_Trial
@@ -13,7 +14,10 @@ namespace ShinyPrismBLE_Trial
 
         protected override void ConfigureServices(IServiceCollection services)
         {
-            //services.UseGps<LocationDelegate>();
+            services.UseBleCentral();
+
+            // for GATT server
+            services.UseBlePeripherals();
         }
     }
 }
